@@ -1,0 +1,32 @@
+{
+  "name": "controls-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run storybook",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "winkerVSbecks",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@storybook/addon-actions": "^6.0.0-rc.15",
+    "@storybook/addon-essentials": "^6.0.0-rc.15",
+    "@storybook/addon-links": "^6.0.0-rc.15",
+    "@storybook/html": "^6.0.0-rc.15",
+    "babel-loader": "^8.1.0",
+    "react-is": "^16.13.1"
+  },
+  "dependencies": {
+    "canvas-sketch": "^0.7.3",
+    "canvas-sketch-cli": "^1.11.9",
+    "canvas-sketch-util": "^1.10.0",
+    "point-in-polygon": "^1.0.1",
+    "rbush": "^3.0.1",
+    "rbush-knn": "^3.0.1"
+  }
+}
